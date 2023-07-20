@@ -7,7 +7,7 @@ apt-get install -y nginx
 mkdir -p /data/web_static/releases/test/
 mkdir -p /data/web_static/shared/
 ln -sf /data/web_static/releases/test/ /data/web_static/current
-echo 'Hello there!!!' > /data/web_static/releases/test/index.html
+echo 'Holberton School' > /data/web_static/releases/test/index.html
 sudo chown -R ubuntu:ubuntu /data/
 printf %s "server {
     listen 80 default_server;
